@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Minimumorderamount_Customergroup</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>By using this module we can able to restrict the minimum order amount based on the customer group.</summary>
+    <description>This module mainly used to restrict the minimum purchase amount based on the customer group.We have to set the minimum order amount for each customer group.When the customer logged in the site, First the module verifies which group the customer belongs to,After that based on the customer group it will fetch the minimum order amount and restrict the minimum purchase value.</description>
+    <notes>Initially minimum order amount  is added to the customer group,further more enhancement in next version upload.</notes>
+    <authors><author><name>commercebees</name><user>CommerceBees</user><email>support@commercebees.com</email></author><author><name>parthipan p</name><user>parthipan_ameex</user><email>p.parthi001@gmail.com</email></author></authors>
+    <date>2015-09-02</date>
+    <time>15:34:59</time>
+    <contents><target name="magecommunity"><dir><dir name="Ameex"><dir name="MinimumOrderAmount"><dir><dir name="Block"><dir name="Customer"><dir name="Group"><dir name="Edit"><file name="Form.php" hash="69bd79993c3ef210725989ba9f021f36"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="0e3bee810ad4de0c7294028750083e83"/></dir><dir name="Model"><file name="MinimumOrderAmount.php" hash="397d0250d17fb96c86a92ffa60494c5d"/><dir name="Mysql4"><dir name="MinimumOrderAmount"><file name="Collection.php" hash="55fbdda7c0ffa86bab7807952246ef99"/></dir><file name="MinimumOrderAmount.php" hash="e11f3b2b11026ee3a7fb0ec8ba09b0a2"/></dir><dir name="Quote"><file name="Address.php" hash="f48f66e866b70d1f071eedef40c8bf18"/></dir><dir name="Resource"><file name="Setup.php" hash="787c23945c0e981d29bbb4022f63e285"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Customer"><file name="GroupController.php" hash="3d009643043ccff2f81eff460619490d"/></dir></dir><file name="CartController.php" hash="f618f9de8d86c5e08f5f749d53f44461"/></dir><dir name="etc"><file name="config.xml" hash="14bcd573ad2b6e62e5199fc7122f98dd"/></dir><dir name="sql"><dir name="minimumorderamount_setup"><file name="install-1.0.0.php" hash="068a5c12703622942320064a42cfff07"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Ameex_MinimumOrderAmount.xml" hash="ccca4c6a6d6513c36972a34f0bc6392b"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
