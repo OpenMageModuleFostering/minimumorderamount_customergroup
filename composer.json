@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Minimumorderamount_Customergroup",
+    "name": "openmage-module-fostering\/minimumorderamount_customergroup",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "By using this module we can able to restrict the minimum order amount based on the customer group.",
     "authors": [
