@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Minimumorderamount_Customergroup",
+    "name": "OpenMageModuleFostering\/Minimumorderamount_Customergroup",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "By using this module we can able to restrict the minimum order amount based on the customer group.",
     "authors": [
-    {
-        "name": "commercebees",
-        "email": "support@commercebees.com"
-    }
-],
+        {
+            "name": "commercebees",
+            "email": "support@commercebees.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
